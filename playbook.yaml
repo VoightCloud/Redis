@@ -1,0 +1,9 @@
+- name: Install Redis
+  hosts: localhost
+  connection: local
+
+  vars:
+    namespace: default
+
+  roles:
+    - redis
